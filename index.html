@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zachary Himed</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <!-- <div class="logo">&ltZach Himed/></div> -->
+      <a class="logo" href="index.html">Zachary Himed</a>
+
+      <!-- <div class="linksContainer"> -->
+      <ul class="nav-links">
+        <li><a class="link" href="#about">About</a></li>
+        <li><a class="link" href="#projects">Projects</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
+
+        <a href="Resume.pdf" target="#"
+          ><button class="resume">Resume</button></a
+        >
+      </ul>
+
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <!-- <section class="belowNav"> -->
+    <!--home section-->
+
+    <div class="everything">
+      <div class="home">
+        <div class="homeSection">
+          <p class="intro">
+            <span class="name">Hi, I'm Zach</span>
+            <br /><br />
+            A Software Engineer who loves anything tech-related, from coding and
+            building apps all the way to tech gadgets.
+          </p>
+          <div class="contactBtnDiv">
+            <a class="contactBtnLink" href="#projects"
+              ><button class="contactBtn">Projects</button></a
+            >
+
+            <div class="socials">
+              <a
+                class="socialLinks"
+                target="#"
+                href="https://www.linkedin.com/in/zachary-himed"
+                ><img src="linkedin.svg" alt=""
+              /></a>
+              <a class="socialLinks" target="#" href="https://github.com/zhimed"
+                ><img src="github.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--about section-->
+
+      <div id="about" class="about">
+        <div class="titleContainer">
+          <div class="titleLeft">About Me</div>
+          <div class="titleRight"></div>
+        </div>
+        <!-- <div class="aboutTitle">About Me</div> -->
+
+        <div class="aboutSections">
+          <div class="aboutPic">
+            <img
+              class="pic greyedOut"
+              src="portraitpic.jpeg"
+              alt="Picture of me"
+            />
+          </div>
+          <div class="aboutDescription">
+            <p class="aboutPara">
+              My name is Zachary Himed, and I am a recent graduate from
+              California State University of East Bay with a Bachelor's degree
+              in Computer Science. I enjoy building things with code in my free
+              time, especially if it's something that has a real use case for
+              the average person like myself. <br /><br />
+              Most of my experience is with Front-End Web Development and
+              Android Development, but I intend to get into back-end development
+              to be able to build full stack applications. I am currently
+              looking for a Software Engineering position where I can apply the
+              skills I have learned, and more importantly add to and solidify my
+              current skillset to become a better software engineer.
+            </p>
+
+            <p>Some of the skills I have:</p>
+
+            <div class="skills">
+              <button class="projectSkill">Android</button>
+              <button class="projectSkill">Java</button>
+              <button class="projectSkill">Javascript</button>
+              <button class="projectSkill">Html</button>
+              <button class="projectSkill">CSS</button>
+              <button class="projectSkill">C++/C</button>
+              <button class="projectSkill">MySQL</button>
+            </div>
+
+            <p>Some skills I am currently learning:</p>
+            <div class="skills">
+              <button class="projectSkill">Node.js</button>
+              <button class="projectSkill">Express</button>
+              <button class="projectSkill">MongoDB</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--project section-->
+
+      <div id="projects" class="projects">
+        <div class="titleContainer">
+          <div class="titleLeft">Projects</div>
+          <div class="titleRight"></div>
+        </div>
+
+        <div class="projectsSection">
+          <div class="imageContainer">
+            <img class="projectImage greyedOut" src="dishlist.jpeg" alt="idk" />
+          </div>
+
+          <div class="projectInfo">
+            <div class="projectMenu">
+              <button class="projectBtn activeProject" id="dishlist">
+                DishList
+              </button>
+              <button class="projectBtn" id="bingefinder">BingeFinder</button>
+              <button class="projectBtn" id="spacetravel">SpaceTravel</button>
+            </div>
+
+            <h1 class="projectName">DishList</h1>
+            <p class="projectDescription">
+              DishList is an Android app I collaborated on with 3 other peers.
+              Essentially, the app is an Instagram clone with a twist, its main
+              focus is on recipes. In this app, users can create accounts, post
+              recipes, and view other recipes from different users on the
+              platform.
+            </p>
+
+            <div class="projectSkills">
+              <button class="projectSkill">Android</button>
+              <button class="projectSkill">Java</button>
+              <button class="projectSkill">Back4App(Backend)</button>
+            </div>
+            <a
+              class="projectLink"
+              href="https://github.com/RecipeTeam123/DishList"
+              target="#"
+              >Repo Link</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- contact section -->
+      <div id="contact" class="contact">
+        <div class="contactTitle">Contact Me</div>
+
+        <p class="contactMessage">
+          Please feel free to reach out to me about any inquiries or
+          opportunities through any of the following methods:
+        </p>
+
+        <div class="contactsInfo">
+          <a target="#" href="https://www.linkedin.com/in/zachary-himed"
+            ><button class="contactBtn2">LinkedIn</button></a
+          >
+          <a target="#" href="https://github.com/zhimed"
+            ><button class="contactBtn2">GitHub</button></a
+          >
+          <!-- <button class="contactBtn2">Email</button> -->
+          <div class="emailDiv">
+            <p class="emailText">Email: zackhimed7@gmail.com</p>
+            <!-- <button class="copyEmailBtn">Copy</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
