@@ -64,6 +64,7 @@ nav {
 .burger {
   display: none;
 }
+
 .burger div {
   width: 25px;
   height: 2px;
@@ -99,7 +100,6 @@ nav {
 .home {
   display: flex;
   flex-direction: row;
-  /* border: white 1px solid; */
   width: 70%;
   margin: 0% 15%;
 }
@@ -110,12 +110,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   width: 500px;
-  /* border: 1px solid white; */
 }
-
-/* .rightHome {
-  width: 50%;
-} */
 
 .name {
   color: var(--grey);
@@ -158,7 +153,6 @@ nav {
   justify-content: center;
   align-items: center;
   width: 150px;
-  /* border: 1px solid white; */
 }
 
 .socialLinks {
@@ -204,7 +198,7 @@ nav {
   padding: 50px 40px 0px 40px;
 }
 
-.aboutPic {
+.aboutPicContainer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -213,7 +207,7 @@ nav {
   padding-top: 40px;
 }
 
-.pic {
+.aboutPic {
   width: 60%;
 }
 
@@ -226,18 +220,11 @@ nav {
   /* border: 1px solid grey; */
 }
 
-.skills {
-  padding-bottom: 20px;
-  font-family: "Nunito", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .greyedOut {
   filter: grayscale(100%);
 }
 
-.pic:hover,
+.aboutPic:hover,
 .projectImage:hover {
   filter: grayscale(0%);
 }
@@ -389,10 +376,10 @@ nav {
 
 @media (max-width: 1425px) {
   /* about section */
-  .aboutPic {
+  .aboutPicContainer {
     width: 50%;
   }
-  .pic {
+  .aboutPic {
     width: 60%;
   }
   .aboutDescription {
@@ -416,7 +403,7 @@ nav {
 
 @media (max-width: 1150px) {
   /* about section */
-  .pic {
+  .aboutPic {
     width: 70%;
   }
 
@@ -443,7 +430,7 @@ nav {
 
 @media (max-width: 950px) {
   /* about section */
-  .pic {
+  .aboutPic {
     width: 75%;
   }
 
@@ -531,7 +518,7 @@ nav {
     justify-content: center;
     align-items: center;
   }
-  .pic {
+  .aboutPic {
     width: 100%;
     padding-bottom: 100px;
   }
@@ -587,7 +574,7 @@ nav {
 
 @media (max-width: 650px) {
   /* about section */
-  .aboutPic {
+  .aboutPicContainer {
     width: 65%;
   }
 
